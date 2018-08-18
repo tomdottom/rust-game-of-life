@@ -1,0 +1,11 @@
+[package]
+name = "rust-cgol"
+version = "0.1.0"
+authors = ["Tom Marks <thomas.o.marks@gmail.com>"]
+
+[dependencies]
+cgol = { path = "../cgol" }
+ncurses = "*"
+ctrlc = "*"
+unicode-segmentation = "1.2.1"
+rand = "*"

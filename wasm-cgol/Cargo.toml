@@ -1,0 +1,13 @@
+[package]
+name = "wasm-cgol"
+version = "0.1.0"
+authors = ["Tom Marks <thomas.o.marks@gmail.com>"]
+publish = false
+
+[dependencies]
+cgol = { path = "../cgol" }
+wasm-bindgen = "0.2.13"
+wbg-rand = "0.4"
+
+[lib]
+crate-type = ["cdylib"]

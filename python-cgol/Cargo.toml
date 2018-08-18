@@ -1,0 +1,17 @@
+[package]
+name = "python-cgol"
+version = "0.1.0"
+authors = ["Tom Marks <thomas.o.marks@gmail.com>"]
+publish = false
+
+[dependencies]
+cgol = { path = "../cgol" }
+rand = "*"
+
+[lib]
+name = "cgol"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.4"
+features = ["extension-module"]

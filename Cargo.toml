@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "cgol",
+    "rust-cgol",
+    "python-cgol",
+    "wasm-cgol",
+]
